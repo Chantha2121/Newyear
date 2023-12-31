@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: skyblue;
+  }
+  
+  .countdown {
+    text-align: center;
+  }
+  
+  #timer {
+    font-size: 3em;
+  }
+  
+  #message {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+    display: none;
+  }
+  #timer{
+    color:green;
+    font-size: 300px;
+    text-shadow: 20px 10px red;
+  }
+  #message{
+    color:blue;
+    font-size: 100px;
+    text-shadow: 20px 2px orange;
+  }
+  #img{
+    margin-top:40px;
+    width:700px;
+  }
+  @media (min-width:0px) and (max-width:980px){
+    #message{
+      color:blue;
+      font-size: 40px;
+      text-shadow: 20px 2px orange;
+    }
+    #img{
+      margin-top:40px;
+      width:400px;
+    }
+  }
+  
